@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE project>
-
-<project name="demo-portlet" basedir="." default="deploy">
-	<import file="/home/guillermo/lavinia/liferay-portal-6.1.2-ce-ga3/liferay-plugins-sdk-6.1.1/portlets/build-common-portlet.xml" />
-</project>
