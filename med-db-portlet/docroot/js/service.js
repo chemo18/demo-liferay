@@ -1,0 +1,1 @@
+Liferay.Service.register("Liferay.Service.med", "com.med.app.service", "med-db-portlet");

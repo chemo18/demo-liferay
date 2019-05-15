@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="com.med.app.service.contactLocalService" class="com.med.app.service.impl.contactLocalServiceImpl" />
+	<bean id="com.med.app.service.contactService" class="com.med.app.service.impl.contactServiceImpl" />
+	<bean id="com.med.app.service.persistence.contactPersistence" class="com.med.app.service.persistence.contactPersistenceImpl" parent="basePersistence" />
+</beans>
